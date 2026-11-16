@@ -1,0 +1,20 @@
+WERSJA V70 – KONTROLA ZGODNOŚCI Z TRZEMA MAILAMI WŁAŚCICIELKI
+
+POPRAWIONE:
+- W sekcji Lokalizacja i dojazd było błędne „15 km”. Teraz: Częstochowa 10 km, Kłobuck 6 km.
+- W tym samym bloku dojazdu ujęto DK43 i DK1 (Warszawa–Katowice).
+- Hero pozostaje jednym zdjęciem całej szerokości z miękkim rozmyciem pod tekstem.
+- Sprawdzono zgodność liczby pokoi: 7; w pokojach 2-, 3-, 4-osobowych.
+- Cztery oferty ze zdjęciami zawierają dedykowane odnośniki do podstron.
+- Zachowano od 50 zł bez niepotwierdzonego określenia jednostki ceny.
+- W treściach: 2 lodówki, płyta gazowa, mikrofalówka, czajnik, naczynia, garnki; wyżywienie we własnym zakresie; DINO/Biedronka do 800 m; pralka; parking dla aut i busów; przechowanie rowerów i sprzętu; rachunki.
+- Dane strukturalne, metatagi, podpisy i treści skontrolowano dla całej witryny.
+
+DO POTWIERDZENIA PRZED PUBLIKACJĄ:
+- Czy cena 50 zł dotyczy osoby / pokoju i jakiej długości pobytu.
+- Docelowa domena HTTPS i konfiguracja hostingu (publish_seo.py, SSL, kanoniczne adresy, przekierowania ze starych wersji).
+- Test na realnym telefonie oraz poprawne działanie połączeń, WhatsApp i formularza.
+- Zgodność podpisów numerowanych zdjęć pokoi z rzeczywistymi numerami.
+- Odległości i nazwy dróg podano zgodnie z informacjami właścicielki, nie są wynikiem niezależnego pomiaru.
+
+OSTRZEŻENIE: nie należy publikować kopii z adresem SITE_ORIGIN w danych strukturalnych. Uruchomić publish_seo.py dopiero po ustaleniu domeny.

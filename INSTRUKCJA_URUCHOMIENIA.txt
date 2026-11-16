@@ -1,0 +1,20 @@
+URUCHOMIENIE STRONY – V70
+========================
+1. Otwórz index.html lokalnie, pokaż podstrony i galerię właścicielce.
+2. Po zatwierdzeniu treści i domeny: uruchom w folderze strony
+   python publish_seo.py https://TWOJA-DOMENA.pl
+   (wpisz zakupioną domenę; nie uruchamiaj komendy z przykładowym adresem).
+3. Wgraj zawartość tego folderu (nie zewnętrzny folder) do katalogu public_html hostingu.
+4. W panelu hostingu włącz SSL, HTTPS i przekierowanie z www na wybraną wersję lub odwrotnie.
+5. Sprawdź adresy /, /noclegi-klobuck.html, /noclegi-czestochowa.html,
+   /noclegi-pracownicze-kamyk.html i /noclegi-dla-pielgrzymow.html.
+6. Sprawdź /sitemap.xml, /robots.txt, przyciski połączenia/WhatsApp, galerię i wersję mobilną.
+7. Po wdrożeniu nowej domeny zmień URL w wizytówce Google.
+8. Ustaw przekierowanie 301 starych adresów GitHub Pages/Netlify, jeśli masz kontrolę i techniczną możliwość; w przeciwnym razie wyłącz indeksowanie kopii i usuń publiczne duplikaty.
+9. Dodaj domenę do Google Search Console i prześlij sitemap.xml.
+10. Zrób pomiar PageSpeed Insights na opublikowanym adresie.
+
+UWAGI
+• Formularz na stronie otwiera wiadomość w WhatsApp; nie jest systemem rezerwacji ani wysyłką e-mail.
+• Bez poprawnej domeny wciąż są szablonowe identyfikatory SITE_ORIGIN w JSON-LD.
+• Nie można zagwarantować wysokich pozycji w Google Maps ani w wyszukiwarce.
